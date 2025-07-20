@@ -1,1 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Muhammad Sabo - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header, section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    #welcome-section {
+      background-color: #007acc;
+      color: white;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 300px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    #skills {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
 
+    .skill {
+      margin-bottom: 20px;
+    }
+
+    .skill p {
+      margin: 0 0 5px;
+      font-weight: bold;
+    }
+
+    .skill-bar {
+      background-color: #eee;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 20px;
+    }
+
+    .skill-level {
+      height: 100%;
+      border-radius: 20px;
+    }
+
+    .html {
+      width: 70%;
+      background-color: #e44d26;
+    }
+
+    .css {
+      width: 50%;
+      background-color: #264de4;
+    }
+
+    .js {
+      width: 50%;
+      background-color: #f0db4f;
+    }
+
+    .cpp {
+      width: 50%;
+      background-color: #00599C;
+    }
+    
+    .project-image {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Welcome Section -->
+  <header id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I'm Muhammad Muhammad Sabo</p>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am Muhammad Muhammad Sabo, a dedicated student with a passion for web development. 
+      I'm on a journey to become a skilled and creative web developer who can build responsive and user-friendly websites. 
+      I'm always learning new technologies and working on exciting projects to improve my skills.
+    </p>
+  </section>
+  
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skill">
+      <p>HTML <span>70%</span></p>
+      <div class="skill-bar">
+        <div class="skill-level html"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>CSS <span>50%</span></p>
+      <div class="skill-bar">
+        <div class="skill-level css"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>JavaScript <span>50%</span></p>
+      <div class="skill-bar">
+        <div class="skill-level js"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>C++ <span>50%</span></p>
+      <div class="skill-bar">
+        <div class="skill-level cpp"></div>
+      </div>
+    </div>
+  </section>
+    
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <img src="digitalClock.jpg" alt="Digital Clock Project" class="project-image">
+        <p>Digital clock</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <img src="project-placeholder.jpg" alt="Project 2" class="project-image">
+        <p>Description of your second project goes here.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <!-- Add more project cards as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:muhammadsabo99@gmail.com">muhammadsabo99@gmail.com</a></p>
+    <p>Phone: <strong>07042811293</strong></p>
+    <p>Github: <a href="https://github.com/M-sabo001" target="_blank">https://github.com/M-sabo001</a></p>
+  </footer>
+
+</body>
+</html>
